@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color:rgba(15,43,115,1);
+}
+/* CSS Document */
+.background_color{
+	position:absolute;
+	height:100%;
+	width:100%;
+	
+background: rgba(22,52,123,1);
+background: -moz-linear-gradient(top, rgba(22,52,123,1) 0%, rgba(15,43,115,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(22,52,123,1)), color-stop(100%, rgba(15,43,115,1)));
+background: -webkit-linear-gradient(top, rgba(22,52,123,1) 0%, rgba(15,43,115,1) 100%);
+background: -o-linear-gradient(top, rgba(22,52,123,1) 0%, rgba(15,43,115,1) 100%);
+background: -ms-linear-gradient(top, rgba(22,52,123,1) 0%, rgba(15,43,115,1) 100%);
+background: linear-gradient(to bottom, rgba(22,52,123,1) 0%, rgba(15,43,115,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16347b', endColorstr='#0f2b73', GradientType=0 );
+	
+}
+
+.pattern_bg{
+	background-image:url(../images/bg_pattern.png);
+	height:100%;
+	width:100%;
+	
+	
+	
+}
+.container{
+	width:624px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:44px;
+	position:relative;
+		
+	
+}
+.cloud_header{
+	width:244px;
+	float:left;
+	clear:left;
+	
+	
+}
+
+.logo{
+	width:237px;
+	float:right;
+	clear:right;
+	margin-bottom:29px;
+	
+}
+
+.content_holder{
+	
+	width:624px;
+	background-color:#e8ebf2;
+	
+	
+}
+
+.form_table{
+	font-family:Arial;
+	font-size:14px;
+	color:#4d5057;
+	
+	
+}
+.form_table tr td, .form_table tr{
+	border-bottom: 1px solid #b9bcc3;	
+}
+.btn{
+	color:#FFF;
+	font-family:Arial;
+	font-size:16px;
+	text-transform:uppercase;
+	border:none;
+	background-color:#fe9900;
+	line-height:16px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:90px;
+	padding-right:90px;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	
+}
+
+.textfield{
+	border:none;
+	background:none;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:16px;
+	padding-bottom:16px;
+	line-height:16px;
+	width:100%;
+	
+	
+}
+
+.textarea_f{
+font-family:Arial;
+	border:none;
+	background:none;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:16px;
+	padding-bottom:16px;
+	line-height:16px;
+	width:100%;
+}
+.suggested{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#71757e;
+text-align:center;
+width:192px;
+margin-left:auto;
+margin-right:auto;
+border: 1px solid #71757e;
+padding-top:15px;
+padding-bottom:15px;	
+
+}
